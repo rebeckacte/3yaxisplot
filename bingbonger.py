@@ -19,9 +19,6 @@ ax2 = ax.twinx()
 ax2.plot(ax.get_xticks(),
     df1[['bus2001soc','bus2003soc']].values)
 
-# #add second line to plot
-#ax2 = df2.plot(kind="bar")
-
 # #add second y-axis label
 ax2.set_ylabel('soc', fontsize=16)
 
